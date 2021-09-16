@@ -1,0 +1,4 @@
+project=ppio_ecdn
+table=ods_ecdnbill
+columns=kafkatime:BIGINT,eventtype:STRING,qostype:STRING,timestring:STRING,unixtimestamp:BIGINT,edgelocalid:BIGINT,hostname:STRING,version:STRING,vhost:STRING,appid:STRING,streamname:STRING,deltaout:BIGINT,deltain:BIGINT,starttime:BIGINT,endtime:BIGINT,originallog:STRING,ip:STRING,isp:STRING,region:STRING,province:STRING
+partitions=dt:STRING
